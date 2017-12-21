@@ -7735,8 +7735,9 @@ i.loading-indicator-feature {
 }
 .home .quick-buttons li {
     display: inline-block;
-    width: 15.5%;
-    padding-top: 5px;
+    width: 5em;
+    flex-basis: 5em;
+    padding-top: 1em;
     font-size: .9em
     margin-top: 1em;
 }
