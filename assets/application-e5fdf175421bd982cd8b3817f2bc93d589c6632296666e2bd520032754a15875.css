@@ -7619,7 +7619,7 @@ i.loading-indicator-feature {
 .home [role="banner"] .logo {
     -webkit-animation: dropDown .6s ease-out
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1050px) {
     .home .dashboard {
         display: flex;
         flex-direction: column
