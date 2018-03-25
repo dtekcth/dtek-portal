@@ -6717,7 +6717,7 @@ body.logged-in [role="banner"] .header-controls .user-details {
     margin-top: 1.5em;
     padding: 1.5em 0 3em;
     clear: both;
-    background-color: #ffa232;
+    background-color: #fa6607;
     color: #fff;
     font-size: .9em
 }
@@ -7619,7 +7619,7 @@ i.loading-indicator-feature {
 .home [role="banner"] .logo {
     -webkit-animation: dropDown .6s ease-out
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1050px) {
     .home .dashboard {
         display: flex;
         flex-direction: column
