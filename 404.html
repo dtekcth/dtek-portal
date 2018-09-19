@@ -1,34 +1,67 @@
 <!DOCTYPE html>
+<!-- For more information about the tech and the developers, GET /humans.txt -->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="favicon.png">
+    <!-- iOS Homescreen specials -->
+    <meta name="apple-mobile-web-app-title" content="DTEK-portal">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="icon" href="https://dtek.se/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="https://dtek.se/favicon-apple.png">
     <!-- Viewport setting -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no" />
     <title>The page could not be found</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" media="screen" href="https://dtek.se/assets/static.css" />
+ <!--   <script src="https://dtek.se/assets/i18n-fd7dbcb70da400e8d5cc9dd31472a0acfde8448552c2bc7aaef9c951654426ea.js" async></script> -->
+
+<!--
+    <script src="javascripts/translations.js"></script>
+    <script>
+      //<![CDATA[
+
+            I18n.defaultLocale = "sv";
+            I18n.locale = "sv";
+
+      //]]>
+    </script>    -->
+    <link rel="stylesheet" media="screen" href="https://dtek.se/assets/application-e5fdf175421bd982cd8b3817f2bc93d589c6632296666e2bd520032754a15875.css" />
+    <link rel="stylesheet" href="https://dtek.se/assets/blockrain/blockrain.css" />
     <script src="https://dtek.se/assets/vendor/modernizr-4acdf69dfb61855f7bf52c0e8df714b19a8d07185726649e16d0669659008db5.js" async></script>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="uazsihfxLLeM8/1bi0LQAfbPdVzrzqEai06bcBoX+N7n7eLJZdn3NSF8o+lwotbMVzvA4R+TF4U7wwlD+UGnbA==" />
+    <meta name="google-site-verification" content="iQzNHBE081zLPfmk0I4AiWIcjcUQLzQLK4JdL5f56VU" />
   </head>
-  <body class="home home-index" lang="en">
+  <body class="home home-index" lang="sv">
+    <!-- Facebook code -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.11';
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <header role="banner" id="banner">
       <div id="banner-pix"> </div>
       <div class="top-bar">
         <div class="inner-bar" id="site-menu">
           <div class="wrapper group">
             <h1>
-              <a class="logo" href="https://en.dtek.se">
-              <span class="logo-text">The Computer Sinence Division<br />
+              <a class="logo" href="https://dtek.se/">
+              <span class="logo-text">Student Division of Computer Science and Engineering<br />
               <small>Chalmers Student Union</small></span>
               </a>
             </h1>
             <nav role="navigation" class="main-nav">
               <ul id="menu-huvudnavigation">
-                <li class="menu-item"><a href="https://dnollk.se/">Reception</a></li>
+                <li class="menu-item"><a href="https://demeter.dtek.se/wiki/Main/DMNollKx">Reception</a></li>
                 <li class="menu-item"><a href="https://dns.dtek.se/">Studies</a></li>
                 <li class="menu-item"><a href="https://dfoto.se/">Photos</a></li>
-                <li class="menu-item"><a href="https://datateknologer.se/">Job</a></li>
+                <li class="menu-item"><a href="https://datateknologer.se/">Jobs</a></li>
                 <li class="menu-item"><a href="https://datateknologer.se/foretag/event-och-tjanster/">Companies</a></li>
+                <li><a href="https://dtek.se/sv.html"><img  src="https://dtek.se/assets/flags/sv-1493318fafef1315b239423418273b61df3a7c486e41d754bb16998c13cc0675.svg" alt="Sv" /></a></li>
               </ul>
             </nav>
           </div>
@@ -40,9 +73,9 @@
         <div class="front-title large-4 columns">
           <div class="box">
             <h1>
-              <span class="detail">The Engineering Division</span><br>
-              Computer Science<br>
-              <span class="detail">Chalmers Student Union</span>
+              <span class="detail">Student Division of</span><br>
+              <span style="font-size:23pt;">Computer Science and Engineering</span><br>
+              <span class="detail">at Chalmers University of Technology</span>
             </h1>
           </div>
         </div>
@@ -89,7 +122,7 @@
                 <i class="fa fa-map"></i>Map
               </a>
             </li>
-            <li><a data-tooltip data-options="disable_for_touch:true" title="Register to recive Data's newsletter, to get updates about what's going on at the division" href="https://lists.dtek.se/cgi-bin/mailman/listinfo/veckobrev" target="_blank" class="has-tip tip-top"> <i class="fa fa-feed"></i>Newsletter</a></li>
+            <li><a data-tooltip data-options="disable_for_touch:true" title="Register to receive Data's newsletter, to get updates about what's going on at the division" href="https://lists.dtek.se/cgi-bin/mailman/listinfo/veckobrev" target="_blank" class="has-tip tip-top"> <i class="fa fa-feed"></i>Newsletter</a></li>
             <li>
               <a data-tooltip data-options="disable_for_touch:true" title="Slack, but without GUI. For real Computer geeks!" href="https://dtek.se/wiki/Main/IRC" target="_blank" class="has-tip tip-top">
                 <i class="fa fa-hashtag"></i>IRC
@@ -103,6 +136,15 @@
             </li>
           </ul>
         </div>
+        <!--<div class="user-area large-3 columns">
+          <section class="current-event box">
+          <h2>Kommande evenemang</h2>
+          <div>
+            <p>Det finns inga evenemang idag</p>
+          </div>
+          </section>
+
+          </div> -->
       </header>
       <section class="dashboard row">
         <div class="large-5 columns" style="float: none; margin: auto;">
@@ -111,7 +153,7 @@
               <h2>Well, this link went nowhere...</h2>
             </header>
             <p>This is a typical 404-page.</p>
-            <p>If you think there's an error behind the scenes, please contact <a href="mailto:dHack <dhack@dtek.se>">dHack</a> with the URL and explain what you were expecting to see.</p>
+            <p>If you think there's an error behind the scenes, please contact <a hrek="mailto:dHack <dhack@dtek.se>">dHack</a> with the URL and explain what you were expecting to see.</p>
           </div>
         </div>
       </section>
@@ -119,21 +161,21 @@
     <footer role="contentinfo" itemscope itemtype="http://schema.org/EducationalOrganization">
       <div class="wrapper group">
         <section class="large-4 columns">
-          <a class="block footer-home-link" href="https://en.dtek.se">
+          <a class="block footer-home-link" href="https://dtek.se/">
             <hgroup itemprop="description">
-              <h1>
-                Datateknologsektionen
-              </h1>
+              <h1 style="font-size:16pt;">
+                Student Division of Computer Science and Engineering
+              </h1><br>
               <h2>
-                Chalmers Tekniska Högskola
+                Chalmers University of Technology
               </h2>
             </hgroup>
           </a>
 	  <a class="block footer-home-link" href="https://chs.chalmers.se" target="_blank">
             <hgroup itemprop="description">
               <h4>
-                en del av Chalmers Studentkår
-              </h2>
+                a part of Chalmers Student Union
+              </h4>
             </hgroup>
           </a>
           <nav>
@@ -178,10 +220,10 @@
         <section class="large-4 columns">
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Board</dt>
+              <dt>Board of the Division</dt>
             </div>
             <div class="column small-6 large-4">
-              <dd><a href="//dtek.se/wiki/Main/Styret">D-Styret</a></dd>
+              <dd><a href="https://dtek.se/wiki/Main/Styret">D-Styret</a></dd>
             </div>
           </div>
           <div class="row">
@@ -194,7 +236,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Sexmästeri</dt>
+              <dt>Sexmästeri (Party committee)</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//dtek.se/wiki/Main/D6">D6</a></dd>
@@ -210,7 +252,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Rustmästeri</dt>
+              <dt>Rustmästeri (Armoury)</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//drust.dtek.se">DRUST</a></dd>
@@ -218,7 +260,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Reception committee</dt>
+              <dt>Bachelor reception committee</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//dnollk.se">DNollK</a></dd>
@@ -234,7 +276,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>DATA-operations committee</dt>
+              <dt>System administrators</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//dtek.se/wiki/Main/DHack">dHack</a></dd>
@@ -242,7 +284,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Flag bearer</dt>
+              <dt>Flag-bearers</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//dtek.se/wiki/Main/Ståthållarämbetet">Ståthållarämbetet</a></dd>
@@ -250,7 +292,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Sports society</dt>
+              <dt>Sports committee</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//dtek.se/wiki/Main/IDrott">iDrott</a></dd>
@@ -258,7 +300,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Game society</dt>
+              <dt>Gaming committee</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//dtek.se/wiki/Main/DLude">DLude</a></dd>
@@ -274,7 +316,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Car committee</dt>
+              <dt>Division car maintainers</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//dtek.se/wiki/Main/DBus">DBus</a></dd>
@@ -282,7 +324,7 @@
           </div>
           <div class="row">
             <div class="column small-6 large-8 text-right">
-              <dt>Division paper</dt>
+              <dt>Division newspaper</dt>
             </div>
             <div class="column small-6 large-4">
               <dd><a href="//dtek.se/wiki/D-lirium/D-lirium">D-lirium</a></dd>
@@ -311,12 +353,47 @@
       </div>
     </div>
     </div>
+    <script src="https://dtek.se/assets/application-388d36f13e5c9f9c542119eb3ced01ea50e9374dfb9ee5a30ebf2160afd56f71.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    /*Set header to something random */
+    function setBanner() {
+      var rawFile = new XMLHttpRequest();
+      rawFile.open("GET", "images/banners/banners.txt", true);
+      rawFile.onload = function (e) {
+        if(rawFile.readyState === 4) {
+          if(rawFile.status === 200 || rawFile.status == 0) {
+            var allText = rawFile.responseText.split("\n");
+            var number = Math.floor(Math.random() * allText.length);
+            var background = allText[number];
+            $('#banner-pix').css('background-image', "url('images/banners/" + background + "')");
+            $('#banner-pix').fadeIn(1000);
+            console.log("Background " + number + ": " + background);
+          } else {
+            console.error(rawFile.statusText);
+          }
+        }
+      }
+      rawFile.onerror = function (e) {
+        console.error(rawFile.statusText);
+      }
+      rawFile.send(null);
+      setTimeout(function(){ $('#banner-pix').fadeOut(1000, setBanner);}, 10000);
+    }
+    setBanner();
+
+
+    function is_touch_device() {
+      return 'ontouchstart' in window;
+    }
+    </script>
     <style type="text/css">
     #banner-pix {
-      background-image: url("https://dtek.se/images/hacke_dizzy.gif");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
+      background-position-x: 20%;
+      background-position-y: 20%;
       background-color: #666;
       width: 100%;
       height:100%;
@@ -325,5 +402,13 @@
       white-space:nowrap;
     }
     </style>
+    <script src="https://dtek.se/assets/blockrain/blockrain.jquery.min.js"></script>
+    <script>
+        if(is_touch_device()) {
+          $('#tetrisbox').hide();
+        } else {
+          $('.blockrain').blockrain({ blockWidth: 14 });
+        }
+    </script>
   </body>
 </html>
